@@ -1,0 +1,41 @@
+[ 2012-11-01T09:27:58+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.006201s ]
+[ 2012-11-01T09:27:58+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000407s ]
+[ 2012-11-01T09:27:58+08:00 ] NOTIC: [8] Undefined index: uid IndexAction.class.php 第 18 行.
+[ 2012-11-01T09:27:58+08:00 ] NOTIC: [8] Undefined index: uname IndexAction.class.php 第 19 行.
+[ 2012-11-01T09:28:06+08:00 ] SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005715s ]
+[ 2012-11-01T09:28:06+08:00 ] SQL: SELECT * FROM `user` WHERE name='xuhengfei' [ RunTime:0.000393s ]
+[ 2012-11-01T09:28:06+08:00 ] NOTIC: [8] Undefined index: redirect LoginAction.class.php 第 17 行.
+[ 2012-11-01T09:28:07+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.006105s ]
+[ 2012-11-01T09:28:07+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000685s ]
+[ 2012-11-01T10:05:09+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.007180s ]
+[ 2012-11-01T10:05:09+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000353s ]
+[ 2012-11-01T10:05:11+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.006832s ]
+[ 2012-11-01T10:05:11+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000322s ]
+[ 2012-11-01T10:05:39+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005837s ]
+[ 2012-11-01T10:05:39+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000345s ]
+[ 2012-11-01T10:05:42+08:00 ] ERR: (ThinkException) 模板不存在[D:/dev/language_learn/thinkPHP/Tpl/default/Topic/publish.html]
+[ 2012-11-01T10:06:17+08:00 ] NOTIC: [8] Undefined index: redirect LoginAction.class.php 第 31 行.
+[ 2012-11-01T10:06:19+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005333s ]
+[ 2012-11-01T10:06:19+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000314s ]
+[ 2012-11-01T10:06:30+08:00 ] SQL: SHOW COLUMNS FROM `user` [ RunTime:0.007288s ]
+[ 2012-11-01T10:06:30+08:00 ] SQL: SELECT * FROM `user` WHERE name='xuhengfei' [ RunTime:0.000310s ]
+[ 2012-11-01T10:06:30+08:00 ] NOTIC: [8] Undefined index: redirect LoginAction.class.php 第 16 行.
+[ 2012-11-01T10:06:31+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.007263s ]
+[ 2012-11-01T10:06:31+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.001227s ]
+[ 2012-11-01T10:06:36+08:00 ] NOTIC: [8] Undefined index: name TopicAction.class.php 第 11 行.
+[ 2012-11-01T10:06:36+08:00 ] NOTIC: [8] Undefined index: password TopicAction.class.php 第 12 行.
+[ 2012-11-01T10:06:36+08:00 ] SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006110s ]
+[ 2012-11-01T10:06:36+08:00 ] SQL: SELECT * FROM `user` WHERE name='' [ RunTime:0.000294s ]
+[ 2012-11-01T10:06:39+08:00 ] ERR: (ThinkException) 非法操作login
+[ 2012-11-01T10:07:01+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005854s ]
+[ 2012-11-01T10:07:01+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000370s ]
+[ 2012-11-01T10:07:06+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005688s ]
+[ 2012-11-01T10:07:06+08:00 ] SQL: INSERT INTO `topic` (`title`,`content`,`owner`) VALUES ('abc','aaa','1') [ RunTime:0.235242s ]
+[ 2012-11-01T10:07:07+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005286s ]
+[ 2012-11-01T10:07:07+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000821s ]
+[ 2012-11-01T10:09:15+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005354s ]
+[ 2012-11-01T10:09:15+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000337s ]
+[ 2012-11-01T10:09:22+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.005196s ]
+[ 2012-11-01T10:09:22+08:00 ] SQL: INSERT INTO `topic` (`title`,`content`,`owner`) VALUES ('宙斯是什么','sdfasf','1') [ RunTime:0.116153s ]
+[ 2012-11-01T10:09:23+08:00 ] SQL: SHOW COLUMNS FROM `topic` [ RunTime:0.010775s ]
+[ 2012-11-01T10:09:23+08:00 ] SQL: SELECT t.*,u.name FROM topic t LEFT JOIN  user u on u.id=t.owner [ RunTime:0.000536s ]

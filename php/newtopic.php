@@ -1,0 +1,1 @@
+<html>	<body>		<form action="doNewTopic.php" method="post">			标题:<input name="title" /><br/>			内容:<textarea name="content" ></textarea><br/>			<button type="submit">提交</button>		</form>	</body></html>

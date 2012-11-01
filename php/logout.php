@@ -1,0 +1,1 @@
+<?php	session_start(); 	$_SESSION['uid']=null;	header("Location: ".$_SERVER['HTTP_REFERER']);	?>

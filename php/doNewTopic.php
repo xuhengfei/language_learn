@@ -1,0 +1,1 @@
+<?php 	//require("logincheck.php")	$con=mysql_connect("localhost","root","");	mysql_select_db("forum",$con);	session_start(); 	$title=$_POST['title'];	$content=$_POST["content"];	$uid=$_SESSION['uid'];	$sql="insert into topic (title,owner,content) values ('" . $title ."','" . $uid ."','".$content."')";	echo $sql;	if(mysql_query($sql,$con)){		echo "发表成功";	}?>
